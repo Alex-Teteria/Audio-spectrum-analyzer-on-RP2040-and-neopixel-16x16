@@ -1,3 +1,9 @@
+# Author: Oleksandr Teteria
+# v1.0.2
+# 13.01.2026
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
+
 import machine
 import neopixel
 import time
@@ -391,6 +397,7 @@ if __name__ == '__main__':
 
         total_us, fill_us, write_us = nm.apply_spectrum_timed(spec)
         print("total:", total_us, "us | fill:", fill_us, "us | write:", write_us, "us")
+
 
 
 
