@@ -1,3 +1,9 @@
+# Author: Oleksandr Teteria
+# v1.0.2
+# 13.01.2026
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
+
 import machine
 import neopixel
 import time
@@ -269,4 +275,5 @@ if __name__ == '__main__':
 
     _thread.start_new_thread(core1_led_worker, ())
     core0_main_loop()
+
 
